@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.image-container {
+    width: 80%;
+    max-width: 800px;
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
